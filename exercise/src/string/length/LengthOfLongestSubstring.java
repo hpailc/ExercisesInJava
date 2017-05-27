@@ -1,4 +1,4 @@
-package substring.calculate;
+package string.length;
 
 import java.util.Date;
 import java.util.HashMap;
