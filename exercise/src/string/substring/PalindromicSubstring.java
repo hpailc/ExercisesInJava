@@ -10,7 +10,7 @@ public class PalindromicSubstring {
 	private static int lo, maxlen;
 
 	public static void main(String[] args) {
-		String s = "babad";
+		String s = "bb";
 		String result = longestPalindrome(s);
 		System.out.println(result);
 	}
