@@ -19,14 +19,15 @@ public class Demo {
 	"job",
 	"hobits",
 	"age"*/
+
 	@Test
 	public void testSetAndGet() throws IOException{
 		Person p = new Person();
 		p.set("name", "zhangsan");
 		p.set(2, "zhangsan@sina.com");
-		p.set("address", "±±¾©º£µí");
+		p.set("address", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		p.set("job", "programmer");
-		p.set("hobits", "Ì¨Çò");
+		p.set("hobits", "Ì¨ï¿½ï¿½");
 		p.set(6, 20);
 		
 		FileWriter fw = new FileWriter(new File("D:\\a.txt"));
